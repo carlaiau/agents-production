@@ -1,0 +1,1710 @@
+{
+  "experiments": [
+    {
+      "name": "reddit",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_kCfUb5dbleRUWpYoy0ohleYE",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-11T23:57:56.964Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-11T23:57:56.965Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_G3jbmn1Y1RxJ3faXzFpu6HVx",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:00:21.815Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_gyCGRZpbkbjoYEHXqpn42glk",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:00:21.817Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:00:21.817Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_PW7H7HL45qc3lHAQ6608BOMU",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:05:11.626Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_x8Z10nBis7RRy9BTeftmr6SW",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:05:11.627Z"
+            },
+            {
+              "input": "hi there",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-02-12T00:05:11.627Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-02-12T00:05:11.627Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_NcFMRtUEx2hJli4u9q5AVJba",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:29.662Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_m6bFGgsqky2spD9mwuO0gsEw",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:29.662Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:07:29.662Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Q8DxhabJByBX4YHae2aVN4Sa",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:38.881Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_8vo2qtahV188roP5joXAVJ7a",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:38.881Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:07:38.881Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_hjODn1qlJYz8bqN9d8tWhzCO",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:51.818Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_P9igIp1ZfAmWsNUNBQrZOjk9",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:51.818Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:09:51.818Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_GGfrbxYUfGwJeC9Auh1R8FcB",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:05.602Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_pzSeoU2wv1IMm6PJ0YZxYslH",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:05.602Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:10:05.602Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_hv56u86CIKYVG7CJSE7Twpir",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:24.315Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_PqkD8ah7QIKz3GuwzXuAYauK",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:24.315Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:11:24.315Z"
+        }
+      ]
+    },
+    {
+      "name": "dadJoke",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_BeCweHEyLj7aS5Gg3Y90Lf55",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-11T23:57:57.017Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-11T23:57:57.017Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_lqIPnKRfaFIdQF6mRkAoEjel",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:29.062Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:07:29.062Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_XpkEnar3ngTUA1MDFnAQUhqg",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:38.846Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:07:38.847Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_oZX3ovvj6pUkiY41NyBubbgR",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:51.788Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:09:51.788Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_H5RPHgbv7ePyU3si8hqN9etv",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:05.774Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:10:05.774Z"
+        }
+      ]
+    },
+    {
+      "name": "generateImage",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_HFiPiRFMfwj8PXrmvDIUAUEO",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:07:39.806Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:07:39.806Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_nhLMDolz2Pe79zvybOhPzLrj",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:52.164Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:09:52.164Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_2eFykH1eWhAhepUFmHTR5XOP",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:06.059Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:10:06.059Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_apNPYDalNDksiPsGXof2GtMw",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:20.475Z"
+            },
+            {
+              "input": "take a photo of mars",
+              "output": {
+                "role": "assistant",
+                "content": "I can't take photos, but I can provide information about Mars or help you find images of it. Would you like to know more about Mars or its features?",
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:20.478Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-02-12T00:10:20.478Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_nTB8sBTb8HzLUnsv2IdgGzdB",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:19.673Z"
+            },
+            {
+              "input": "take a photo of mars",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_9QfiefQk0PeI4O095JQqqihp",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A stunning view of the planet Mars, showcasing its reddish surface, craters, and rocky terrain, with a starry background.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:19.673Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:11:19.673Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_xKvLc1mMwxbuzNM45SdJxGy4",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:24.963Z"
+            },
+            {
+              "input": "take a photo of mars",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_BuEhlA4VRfr00DtOT7OLuyie",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A stunning view of the planet Mars, showcasing its red surface, rocky terrain, and distant stars in the background. The image should capture the unique features of Mars, such as its craters and valleys, with a clear and vibrant color palette.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:24.963Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:11:24.963Z"
+        }
+      ]
+    },
+    {
+      "name": "allTools",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_DaEJQxCrbakn39l2fTC6EXE3",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:52.370Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_d2AdKuBxccJ62YHF4jd9GUKL",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:52.370Z"
+            },
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_KcGu00dnywj2xjX5Ynjcwv56",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:52.370Z"
+            },
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_IfjZ4gHhpNvw5hnuCcbPM1PL",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:09:52.370Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:09:52.370Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_0SSuQRizJlNUoz3Wpfbmq1B7",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:06.238Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_i6eSjFgRyvjSNkjg5Ko305U4",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:06.238Z"
+            },
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_ZaNbL8nzlqOQ5BQtHiJUnl0m",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunset over a calm ocean, with vibrant orange, pink, and purple hues in the sky, reflecting on the water. Silhouettes of palm trees in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:06.238Z"
+            },
+            {
+              "input": "take a photo of mars",
+              "output": {
+                "role": "assistant",
+                "content": "I can't take photos, but you can find stunning images of Mars taken by various space missions, such as NASA's Mars rovers and orbiters. Websites like NASA's official site or space-related news outlets often have high-quality images available for viewing. Would you like to know more about Mars or its exploration?",
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:06.238Z"
+            },
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_8v3w1PoSMVpKaBwe6Q9m3C6x",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:10:06.238Z"
+            }
+          ],
+          "score": 0.8,
+          "createdAt": "2025-02-12T00:10:06.238Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me something cool from reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Ur9BKPfxuu0Cs4aICBfmje3n",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:25.014Z"
+            },
+            {
+              "input": "Whats happening on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_N82bPVOWBeLnoEpiZSA3ONMJ",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:25.014Z"
+            },
+            {
+              "input": "can you generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_bNxgyZ7mwc46hcvMTAc7ZP7w",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"a beautiful sunset over a calm ocean, with vibrant orange and pink hues in the sky, reflecting on the water, and silhouettes of palm trees in the foreground\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:25.014Z"
+            },
+            {
+              "input": "take a photo of mars",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Xf7SqqxULaZeA9iWucxaSFqq",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A stunning view of the planet Mars, showcasing its reddish surface, craters, and rocky terrain, with a starry background.\"}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:25.014Z"
+            },
+            {
+              "input": "get me a dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_dfC7RfpLQSkhEbQJ0qvNn8mk",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-02-12T00:11:25.014Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-02-12T00:11:25.014Z"
+        }
+      ]
+    }
+  ]
+}

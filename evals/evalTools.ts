@@ -166,3 +166,13 @@ export const runEval = async <T = any>(
 
   return results
 }
+
+export const createToolCallMessage = (toolName: string) => ({
+  role: 'assistant',
+  tool_calls: [
+    {
+      type: 'function',
+      function: { name: toolName },
+    },
+  ],
+})
